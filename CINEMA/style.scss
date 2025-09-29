@@ -12,7 +12,9 @@ comentario de varias linhas
     // Faz o calcuo correto dos tamanhos dos elementos
 }
 
-
+header{
+    background-color: rgb(112, 6, 6);
+}
 
 // seletor{propriedade:valor;}
 // tag - seletor
@@ -22,11 +24,33 @@ img{
 }
 // class - seletor 
 .titulo{
-    color: red;
+    color: black;
 }
 
 #btn1{
-    background-color: blueviolet;
+    background-color: rgb(117, 7, 7);
+
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(68, 4, 4);
+    h1{
+        color: wi;
+    }
+}
+
+a{
+    text-decoration: name;
+    // retirei o sublinhado da tag a
+    color: black;
+    padding: 5px;
+}
+
 
 

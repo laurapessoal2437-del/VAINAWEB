@@ -7,14 +7,38 @@ comentario de varias linhas
   box-sizing: border-box;
 }
 
+header {
+  background-color: rgb(112, 6, 6);
+}
+
 img {
   width: 150px;
 }
 
 .titulo {
-  color: red;
+  color: black;
 }
 
 #btn1 {
-  background-color: blueviolet;
+  background-color: rgb(117, 7, 7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(68, 4, 4);
+}
+header h1 {
+  color: wi;
+}
+
+a {
+  -webkit-text-decoration: name;
+          text-decoration: name;
+  color: black;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
