@@ -1,0 +1,44 @@
+*{
+    // * seletor global - reseta a pagina
+    margin: 0;
+    // espaçamento externo da tag
+    padding: 0;
+// espaçamento interno da tag
+    box-sizing: border-box;
+    // ajusta o tamanho
+}
+
+//  forma de selecionar as tags
+//  pra chamar uma class é necessáro digitar . e o nome da class
+.caixa{
+    background-color: bisque;
+    // propriedade: valor;
+    border: double 3px green;
+    // aplica uma borda na tag, define uma borda pontilhada, de 3px na cor verde
+    text-align: center;
+    // texte-align alinha o texto ao centro
+}
+
+.box-fixa{
+    width: 300px;
+    height: 150px;
+}
+
+.box-porcentagem{
+    // medida relativa
+    width: 80%;
+    // sempre vai se adptar a menida da tela
+    height: 50px;
+}
+
+.box-viewport{
+    // viewport vw - largura width / vh altura heigth
+    width: 50vw;
+    height: 30vh;
+}
+
+// rem é para texto ou propriedade de pequenas
+// 1 rem = 16px
+.box-rem{
+font-size: 2rem;
+}
