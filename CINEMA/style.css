@@ -16,7 +16,7 @@ img {
 }
 
 .titulo {
-  color: black;
+  color: white;
 }
 
 #btn1 {
@@ -33,12 +33,16 @@ header {
   background-color: rgb(68, 4, 4);
 }
 header h1 {
-  color: wi;
+  color: white;
 }
 
 a {
   -webkit-text-decoration: name;
           text-decoration: name;
-  color: black;
+  color: white;
   padding: 5px;
+}
+
+.card img {
+  width: 150px;
 }/*# sourceMappingURL=style.css.map */

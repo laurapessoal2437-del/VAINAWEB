@@ -24,7 +24,7 @@ img{
 }
 // class - seletor 
 .titulo{
-    color: black;
+    color: white;
 }
 
 #btn1{
@@ -41,15 +41,22 @@ img{
 header{
     background-color: rgb(68, 4, 4);
     h1{
-        color: wi;
+        color: white;
     }
 }
 
 a{
     text-decoration: name;
     // retirei o sublinhado da tag a
-    color: black;
+    color: white;
     padding: 5px;
+}
+
+
+.card{
+    img{
+        width: 150px;
+    }
 }
 
 
